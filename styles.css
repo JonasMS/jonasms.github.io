@@ -1,0 +1,33 @@
+body {
+  font-family: Inconsolata, Helvetica;
+  font-size: 10pt;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+ul {
+  margin-bottom: 20px;
+}
+
+.container {
+  margin: 30px;
+}
+
+.name {
+  margin-bottom: 5px;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.listTitle {
+  font-weight: bold;
+}
