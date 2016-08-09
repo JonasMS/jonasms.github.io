@@ -15,12 +15,22 @@ ul {
   margin-bottom: 20px;
 }
 
+li {
+  margin-bottom: 6px;
+}
+
 .container {
   margin: 30px;
+  width: 450px;
 }
 
 .name {
   margin-bottom: 5px;
+}
+
+.blurb {
+  margin-bottom: 20px;
+  line-height: 120%;
 }
 
 .title {
