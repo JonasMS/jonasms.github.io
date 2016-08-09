@@ -1,6 +1,6 @@
 body {
   font-family: Inconsolata, Helvetica;
-  font-size: 10pt;
+  font-size: 20pt;
 }
 
 a {
@@ -21,23 +21,62 @@ li {
 
 .container {
   margin: 30px;
-  width: 450px;
+  width: 80%;
 }
 
 .name {
   margin-bottom: 5px;
 }
 
-.blurb {
-  margin-bottom: 20px;
-  line-height: 120%;
-}
-
 .title {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: gray;
 }
 
+.blurb {
+  margin-bottom: 40px;
+  line-height: 120%;
+}
+
+
 .listTitle {
   font-weight: bold;
+}
+
+.contact {
+  margin-top: 80px;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 768px) {
+  ul {
+    margin-bottom: 20px;
+  }
+
+  li {
+    margin-bottom: 6px;
+  }
+
+  .container {
+    margin: 30px;
+    width: 450px;
+  }
+
+  .name {
+    margin-bottom: 5px;
+  }
+
+  .title {
+    margin-bottom: 20px;
+    color: gray;
+  }
+
+  .blurb {
+    margin-bottom: 20px;
+    line-height: 120%;
+  }
+
+  .listTitle {
+    font-weight: bold;
+  }
 }
