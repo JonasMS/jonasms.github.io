@@ -33,6 +33,10 @@ li {
   color: gray;
 }
 
+.links {
+  display: none;
+}
+
 .blurb {
   margin-bottom: 40px;
   line-height: 120%;
@@ -65,6 +69,12 @@ li {
   .container {
     margin: 30px;
     width: 450px;
+  }
+
+  .links {
+    display: block;
+    width: 100%;
+    margin: 30px 0;
   }
 
   .name {
