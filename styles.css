@@ -34,8 +34,7 @@ li {
 }
 
 .links {
-  width: 100%;
-  margin: 30px 0;
+  display: none;
 }
 
 .blurb {
@@ -70,6 +69,12 @@ li {
   .container {
     margin: 30px;
     width: 450px;
+  }
+
+  .links {
+    display: block;
+    width: 100%;
+    margin: 30px 0;
   }
 
   .name {
