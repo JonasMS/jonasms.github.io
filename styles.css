@@ -33,6 +33,11 @@ li {
   color: gray;
 }
 
+.links {
+  width: 100%;
+  margin: 30px 0;
+}
+
 .blurb {
   margin-bottom: 40px;
   line-height: 120%;
