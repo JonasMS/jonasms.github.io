@@ -1,6 +1,6 @@
 {
-  "name": "zenefits",
-  "version": "0.0.1",
+  "name": "Me Site",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "build": "webpack --progress",
