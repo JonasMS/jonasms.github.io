@@ -44,11 +44,20 @@ li {
 
 
 .listTitle {
-  font-weight: bold;
+  font-weight: 800;
+  margin-top: 60px;
 }
 
-.contact {
+/* .contact {
   margin-top: 80px;
+} */
+
+.footer {
+  margin-top: 100px;
+}
+
+.footer .blurb {
+  margin-bottom: 10px;
 }
 
 /* Media Queries */
@@ -92,10 +101,14 @@ li {
   }
 
   .listTitle {
-    font-weight: bold;
-  }
-
-  .contact {
     margin-top: 30px;
   }
+
+  .footer {
+    margin-top: 40px;
+  }
+
+  /* .contact {
+    margin-top: 30px;
+  } */
 }
