@@ -1,6 +1,6 @@
 body {
   font-family: Inconsolata, Helvetica;
-  font-size: 10pt;
+  font-size: 20pt;
 }
 
 a {
@@ -15,8 +15,13 @@ ul {
   margin-bottom: 20px;
 }
 
+li {
+  margin-bottom: 6px;
+}
+
 .container {
   margin: 30px;
+  width: 80%;
 }
 
 .name {
@@ -24,10 +29,86 @@ ul {
 }
 
 .title {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: gray;
 }
 
+.links {
+  display: none;
+}
+
+.blurb {
+  margin-bottom: 40px;
+  line-height: 120%;
+}
+
+
 .listTitle {
-  font-weight: bold;
+  font-weight: 800;
+  margin-top: 60px;
+}
+
+/* .contact {
+  margin-top: 80px;
+} */
+
+.footer {
+  margin-top: 100px;
+}
+
+.footer .blurb {
+  margin-bottom: 10px;
+}
+
+/* Media Queries */
+/* Desktop */
+@media screen and (min-device-width: 768px) {
+  body {
+    font-size: 10pt;
+  }
+
+  ul {
+    margin-bottom: 20px;
+  }
+
+  li {
+    margin-bottom: 6px;
+  }
+
+  .container {
+    margin: 30px;
+    width: 450px;
+  }
+
+  .links {
+    display: block;
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .name {
+    margin-bottom: 5px;
+  }
+
+  .title {
+    margin-bottom: 20px;
+    color: gray;
+  }
+
+  .blurb {
+    margin-bottom: 20px;
+    line-height: 120%;
+  }
+
+  .listTitle {
+    margin-top: 30px;
+  }
+
+  .footer {
+    margin-top: 40px;
+  }
+
+  /* .contact {
+    margin-top: 30px;
+  } */
 }
